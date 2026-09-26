@@ -121,6 +121,10 @@ NEXT_PUBLIC_MEME_ADDRESS=0x...
 
 Then restart the frontend.
 
+## Live demo
+
+https://frontend-nohcner.vercel.app/
+
 ## Live Robinhood Chain Testnet deployment
 
 Chain ID: `46630`
