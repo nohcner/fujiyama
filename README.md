@@ -121,6 +121,18 @@ NEXT_PUBLIC_MEME_ADDRESS=0x...
 
 Then restart the frontend.
 
+## Live Robinhood Chain Testnet deployment
+
+Chain ID: `46630`
+
+```text
+Mock Stock Token (mSTOCK): 0xfd2d5180b9a915991db847f9a0248055f56962be
+Fuji Meme (FUJI):          0x3cfd5c402101aa4cf6e9cdbfdd4f9807f028b8ce
+FUJIYAMA AMM:              0xedcc5d07cfe301f52b79e3e96229c87c73dac392
+```
+
+The first mock token is the stock token and the second is the meme token, matching the creation order in `script/Deploy.s.sol`.
+
 ## Demo flow
 
 A clean demo path is:
@@ -152,7 +164,7 @@ Implemented in the public hackathon repository:
 - Next.js + viem live dashboard and swap flow;
 - ETHGlobal submission draft.
 
-Local compilation, deployment, production frontend build, and final demo verification must still be run before submission.
+GitHub Actions currently passes the Solidity test suite, frontend production build, and Python stress replay. The contracts have also been broadcast to Robinhood Chain Testnet. Final browser-wallet demo verification and public frontend deployment still need to be completed before submission.
 
 ## AI usage
 
