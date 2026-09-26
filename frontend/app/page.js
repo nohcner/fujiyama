@@ -32,9 +32,15 @@ const publicClient = createPublicClient({
   transport: http(),
 });
 
-const AMM_ADDRESS = process.env.NEXT_PUBLIC_AMM_ADDRESS || "";
-const STOCK_ADDRESS = process.env.NEXT_PUBLIC_STOCK_ADDRESS || "";
-const MEME_ADDRESS = process.env.NEXT_PUBLIC_MEME_ADDRESS || "";
+const AMM_ADDRESS =
+  process.env.NEXT_PUBLIC_AMM_ADDRESS ||
+  "0xedcc5d07cfe301f52b79e3e96229c87c73dac392";
+const STOCK_ADDRESS =
+  process.env.NEXT_PUBLIC_STOCK_ADDRESS ||
+  "0xfd2d5180b9a915991db847f9a0248055f56962be";
+const MEME_ADDRESS =
+  process.env.NEXT_PUBLIC_MEME_ADDRESS ||
+  "0x3cfd5c402101aa4cf6e9cdbfdd4f9807f028b8ce";
 
 const ammAbi = [
   {
