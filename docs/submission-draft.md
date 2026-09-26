@@ -38,7 +38,7 @@ For stock-token -> meme swaps during a closed issuance window, the guard routes 
 
 The repository includes Solidity unit tests, a dependency-free Foundry deployment script, a Python stress replay matching the Solidity guard curve, and a Next.js + viem frontend. The frontend reads live pool state, previews FUJIYAMA versus standard-AMM execution, displays projected guard and buffered inventory, connects to a browser wallet, and executes swaps onchain.
 
-The hackathon prototype currently uses mock ERC-20 assets so the scarcity mechanism is reproducible and testable. Any final chain deployment, oracle integration, or sponsor-specific integration should be added here only after it is actually completed.
+The hackathon prototype currently uses mock ERC-20 assets so the scarcity mechanism is reproducible and testable. The contracts are deployed on Robinhood Chain Testnet (chain ID 46630) using mock ERC-20 assets so the scarcity mechanism is reproducible and testable. Oracle integration or any sponsor-specific integration should only be added here after it is actually completed.
 
 AI coding assistance was used for implementation, debugging, tests, documentation, and frontend development. Final design decisions, deployments, verification, demo operation, and submission are performed by the project author.
 
@@ -50,7 +50,13 @@ AI coding assistance was used for implementation, debugging, tests, documentatio
 - React 19
 - viem
 - Python 3
-- EVM-compatible testnet deployment
+- Robinhood Chain Testnet (chain ID 46630)
+
+## Live deployment
+
+- Mock Stock Token (mSTOCK): `0xfd2d5180b9a915991db847f9a0248055f56962be`
+- Fuji Meme (FUJI): `0x3cfd5c402101aa4cf6e9cdbfdd4f9807f028b8ce`
+- FUJIYAMA AMM: `0xedcc5d07cfe301f52b79e3e96229c87c73dac392`
 
 ## Images
 
