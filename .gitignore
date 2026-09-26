@@ -1,0 +1,16 @@
+# Foundry
+cache/
+out/
+broadcast/
+
+# Environment / secrets
+.env
+.env.*
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+
+# macOS
+.DS_Store
